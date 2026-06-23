@@ -1,0 +1,411 @@
+2026-06-22 11:53:27,751 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,758 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:27,759 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,767 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,790 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:27,790 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,798 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,818 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:27,819 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,837 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:27,842 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:27,845 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:27.
+2026-06-22 11:53:40,806 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,810 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:40,810 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,824 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,833 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:40,833 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,838 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,841 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:40,841 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,846 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 11:53:40,849 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 11:53:40,849 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 11:54:40.
+2026-06-22 12:09:07,716 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:09:16,535 ERROR gateway.run: ✗ homeassistant error: homeassistant connect timed out after 30s
+2026-06-22 12:09:50,194 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:10:17,607 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 60s
+2026-06-22 12:10:32,618 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:11:15,087 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:11:47,660 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 120s
+2026-06-22 12:11:57,565 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:12:39,988 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:13:22,456 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:14:04,781 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-22 12:14:12,618 ERROR asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0xee45582ae010>
+2026-06-22 12:14:30,372 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=2460 parent_name=systemd loadavg_1m=0.00 parent_cmdline='/usr/lib/systemd/systemd --user'
+2026-06-22 12:14:30,446 ERROR hermes_plugins.telegram_platform.adapter: [Telegram] Failed to send Telegram message: Chat not found
+Traceback (most recent call last):
+  File "/home/ubuntu/.hermes/hermes-agent/plugins/platforms/telegram/adapter.py", line 2618, in send
+    msg = await self._bot.send_message(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Chat not found
+2026-06-22 12:14:47,997 ERROR gateway.run: ✗ homeassistant error: homeassistant connect timed out after 30s
+2026-06-22 12:15:13,614 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=2460 parent_name=systemd loadavg_1m=0.00 parent_cmdline='/usr/lib/systemd/systemd --user'
+2026-06-22 12:15:13,686 ERROR hermes_plugins.telegram_platform.adapter: [Telegram] Failed to send Telegram message: Chat not found
+Traceback (most recent call last):
+  File "/home/ubuntu/.hermes/hermes-agent/plugins/platforms/telegram/adapter.py", line 2618, in send
+    msg = await self._bot.send_message(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Chat not found
+2026-06-22 12:15:23,527 ERROR gateway.run: ✗ homeassistant error: homeassistant connect timed out after 30s
+2026-06-22 12:15:57,304 ERROR gateway.run: ✗ homeassistant error: homeassistant connect timed out after 30s
+2026-06-22 12:15:58,327 WARNING gateway.run: Dropping message from unauthorized user in active session: user=8941625346 (Deniz Ozben), platform=telegram, session=agent:main:telegram:dm:8941625346
+2026-06-22 12:15:58,339 WARNING gateway.run: Unauthorized user: 8941625346 (Deniz Ozben) on telegram
+2026-06-22 12:16:58,386 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 60s
+2026-06-22 12:18:19,420 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=2460 parent_name=systemd loadavg_1m=0.02 parent_cmdline='/usr/lib/systemd/systemd --user'
+2026-06-22 12:18:19,533 ERROR hermes_plugins.telegram_platform.adapter: [Telegram] Failed to send Telegram message: Chat not found
+Traceback (most recent call last):
+  File "/home/ubuntu/.hermes/hermes-agent/plugins/platforms/telegram/adapter.py", line 2618, in send
+    msg = await self._bot.send_message(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Chat not found
+2026-06-22 12:18:19,637 ERROR asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0xef9913fdc710>
+2026-06-22 12:18:39,703 WARNING [20260622_121830_130f10] agent.tool_executor: Tool skill_view returned error (0.04s): {"success": false, "error": "Skill 'hermes-agent' not found.", "available_skills": ["dogfood", "home-assistant-token-and-401-troubleshooting", "yuanbao", "claude-code", "codex", "opencode", "architect
+2026-06-22 12:18:52,268 ERROR gateway.run: ✗ homeassistant error: homeassistant connect timed out after 30s
+2026-06-22 12:19:53,330 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 60s
+2026-06-22 12:21:23,395 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 120s
+2026-06-22 12:23:53,530 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 240s
+2026-06-22 12:28:23,803 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 12:33:54,129 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 12:39:24,450 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 12:44:54,791 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 12:49:56,627 WARNING [20260622_124058_6d3226] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 1,316/1,375 chars. Adding this entry (146 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-22 12:50:25,116 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 12:51:52,812 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool session_search returned error (0.00s): {"error": "around_message_id 1 not in session_id 20260622_124058_6d3226", "success": false}
+2026-06-22 12:51:52,817 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool session_search returned error (0.00s): {"error": "around_message_id 1 not in session_id 20260622_121830_130f10", "success": false}
+2026-06-22 12:52:10,300 WARNING [20260622_124058_6d3226] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Refusing to write to Hermes config file: /home/ubuntu/.hermes/config.yaml\nAgent cannot modify security-sensitive configuration. Edit ~/.hermes/config.yaml directly or use 'hermes config' i
+2026-06-22 12:52:41,271 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+2026-06-22 12:52:52,285 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+2026-06-22 12:53:03,298 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+
+[Tool loop warning: same_tool_failure_warning; count=3; fact_store has failed 3 times this turn. This looks like a loop. Do not switch to text-only replies; keep using
+2026-06-22 12:53:10,122 WARNING [20260622_124058_6d3226] agent.tool_executor: Tool terminal returned error (0.64s): {"output": "usage: hermes config [-h] {show,edit,set,path,env-path,check,migrate} ...\nhermes config: error: argument config_command: invalid choice: 'get' (choose from 'show', 'edit', 'set', 'path', 
+2026-06-22 12:53:13,785 WARNING [20260622_124058_6d3226] agent.tool_executor: Tool terminal returned error (0.84s): {"output": "", "exit_code": 1, "error": null, "exit_code_meaning": "No matches found (not an error)"}
+2026-06-22 12:53:14,312 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+
+[Tool loop warning: same_tool_failure_warning; count=4; fact_store has failed 4 times this turn. This looks like a loop. Do not switch to text-only replies; keep using
+2026-06-22 12:53:25,325 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+
+[Tool loop warning: same_tool_failure_warning; count=5; fact_store has failed 5 times this turn. This looks like a loop. Do not switch to text-only replies; keep using
+2026-06-22 12:53:36,338 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+
+[Tool loop warning: same_tool_failure_warning; count=6; fact_store has failed 6 times this turn. This looks like a loop. Do not switch to text-only replies; keep using
+2026-06-22 12:53:47,352 WARNING [20260622_125129_61e9a2] agent.tool_executor: Tool fact_store returned error (10.01s): {"error": "database is locked"}
+
+[Tool loop warning: same_tool_failure_warning; count=7; fact_store has failed 7 times this turn. This looks like a loop. Do not switch to text-only replies; keep using
+2026-06-22 12:55:55,433 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:01:25,738 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:06:56,045 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:12:26,361 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:17:56,696 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:23:27,029 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:28:57,375 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:34:27,730 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:39:58,070 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:45:28,416 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:50:58,747 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 13:56:29,088 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:01:59,425 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:07:29,755 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:13:00,075 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:18:30,411 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:24:00,747 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:29:31,074 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:35:01,397 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:40:31,722 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:46:02,042 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:51:32,357 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 14:57:02,678 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:02:33,014 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:08:03,321 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:13:33,626 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:19:03,953 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:24:34,265 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:30:04,583 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:35:34,894 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:41:05,203 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:46:35,535 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:52:05,847 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 15:57:36,155 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:03:06,458 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:08:36,760 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:14:07,068 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:19:37,388 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:25:07,704 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:30:38,058 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:36:08,404 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:41:38,742 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:47:09,060 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:52:39,360 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 16:58:09,657 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:03:39,978 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:09:10,316 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:14:40,693 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:20:11,017 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:25:41,339 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:31:11,639 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:36:41,950 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:42:12,256 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:47:42,560 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:53:12,858 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 17:58:43,159 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:04:13,471 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:09:43,813 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:15:14,160 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:20:44,476 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:26:14,829 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:31:45,164 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:37:15,515 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:42:45,873 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:48:16,219 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:53:46,563 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 18:59:16,899 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:04:47,211 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:10:17,568 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:15:47,918 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:21:18,260 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:26:48,603 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:32:18,951 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:37:49,310 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:43:19,628 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:48:49,972 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:54:20,279 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 19:59:50,622 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:05:20,971 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:10:51,316 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:16:21,661 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:21:51,994 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:27:22,331 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:32:52,679 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:38:23,025 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:43:53,345 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:49:23,700 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 20:54:54,043 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:00:24,397 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:05:54,736 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:11:25,064 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:16:55,391 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:22:25,732 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:27:56,054 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:33:26,393 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:38:56,726 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:44:27,068 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:49:57,396 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 21:55:27,705 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:00:58,027 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:06:28,339 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:11:58,647 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:17:28,981 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:22:59,272 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:28:29,571 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:33:59,886 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:39:30,188 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:45:00,471 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:50:30,778 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 22:56:01,081 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:01:31,401 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:07:01,749 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:12:32,094 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:18:02,449 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:23:32,786 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:29:03,145 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:34:33,484 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:40:03,827 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:45:34,160 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:51:04,469 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-22 23:56:34,812 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:02:05,120 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:07:35,467 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:13:05,812 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:18:36,154 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:24:06,500 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:29:36,847 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:35:07,199 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:40:37,541 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:46:07,884 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:51:38,227 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 00:57:08,577 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:02:38,867 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:08:09,193 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:13:39,524 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:19:09,836 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:24:40,156 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:30:10,472 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:35:40,813 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:41:11,163 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:46:41,485 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:52:11,819 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 01:57:42,162 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:03:12,492 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:08:42,829 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:14:13,161 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:19:43,478 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:25:13,791 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:30:44,098 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:36:14,417 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:41:44,704 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:47:14,996 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:52:45,286 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 02:58:15,573 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:03:45,859 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:09:16,158 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:14:46,460 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:20:16,767 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:25:47,101 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:31:17,450 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:36:47,806 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:42:18,144 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:47:48,493 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:53:18,825 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 03:58:49,171 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:04:19,527 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:09:49,864 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:15:20,222 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:20:50,574 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:26:20,910 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:31:51,220 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:37:21,571 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:42:51,931 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:48:22,285 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:53:52,617 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 04:59:22,950 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:04:53,286 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:10:23,621 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:15:53,949 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:21:24,294 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:26:54,638 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:32:24,994 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:37:55,349 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:43:25,678 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:48:56,006 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:54:26,339 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 05:59:56,664 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:05:27,002 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:10:57,326 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:16:27,669 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:21:57,991 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:27:28,302 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:32:58,607 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:38:28,913 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:43:59,227 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:49:29,538 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 06:54:59,842 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:00:30,168 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:06:00,481 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:11:30,780 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:17:01,094 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:22:31,388 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:28:01,691 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:33:31,995 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:39:02,339 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:44:32,693 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:50:03,027 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 07:55:33,356 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:01:03,701 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:06:34,048 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:12:04,353 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:17:34,677 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:23:04,986 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:28:35,285 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:34:05,584 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:39:35,916 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:45:06,281 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:50:36,635 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 08:56:06,982 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:01:37,309 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:07:07,641 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:12:37,947 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:18:08,254 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:23:38,559 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:29:08,893 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:29:55,456 WARNING hermes_cli.web_server: --insecure no longer bypasses dashboard authentication. A non-loopback bind (0.0.0.0) now ALWAYS requires an auth provider (OAuth or the bundled password provider). Configure one — see below — or bind to 127.0.0.1 and reach it over an SSH tunnel / Tailscale.
+2026-06-23 09:33:27,062 WARNING hermes_cli.web_server: --insecure no longer bypasses dashboard authentication. A non-loopback bind (0.0.0.0) now ALWAYS requires an auth provider (OAuth or the bundled password provider). Configure one — see below — or bind to 127.0.0.1 and reach it over an SSH tunnel / Tailscale.
+2026-06-23 09:34:39,228 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:40:09,554 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:45:39,873 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:51:10,219 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 09:56:40,534 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 10:02:10,859 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s
+2026-06-23 10:07:41,210 WARNING gateway.run: Reconnect homeassistant error: homeassistant connect timed out after 30s, next retry in 300s

@@ -1,0 +1,18 @@
+2026-06-23 09:29:55,293 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-23 09:29:55,435 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-23 09:29:55,456 WARNING hermes_cli.web_server: --insecure no longer bypasses dashboard authentication. A non-loopback bind (0.0.0.0) now ALWAYS requires an auth provider (OAuth or the bundled password provider). Configure one — see below — or bind to 127.0.0.1 and reach it over an SSH tunnel / Tailscale.
+2026-06-23 09:29:55,456 INFO hermes_cli.web_server: Dashboard binding to 0.0.0.0 with auth gate enabled. Providers: basic
+2026-06-23 09:33:26,879 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-23 09:33:27,050 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-23 09:33:27,062 WARNING hermes_cli.web_server: --insecure no longer bypasses dashboard authentication. A non-loopback bind (0.0.0.0) now ALWAYS requires an auth provider (OAuth or the bundled password provider). Configure one — see below — or bind to 127.0.0.1 and reach it over an SSH tunnel / Tailscale.
+2026-06-23 09:33:27,063 INFO hermes_cli.web_server: Dashboard binding to 0.0.0.0 with auth gate enabled. Providers: basic
+2026-06-23 09:39:50,433 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-23 09:39:50,598 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-23 09:39:50,609 INFO hermes_cli.web_server: Dashboard binding to 0.0.0.0 with auth gate enabled. Providers: basic
+2026-06-23 09:40:21,802 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-23 09:40:21,976 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-23 09:40:21,989 INFO hermes_cli.web_server: Dashboard binding to 0.0.0.0 with auth gate enabled. Providers: basic
+2026-06-23 09:41:14,416 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-23 09:41:14,556 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-23 09:42:11,906 INFO tui_gateway.ws: ws accepted peer=46.196.105.182:55237
+2026-06-23 09:44:40,769 INFO tui_gateway.ws: ws closed peer=46.196.105.182:55237 reason=client_disconnect(code=1001,reason=) messages=66 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=8
