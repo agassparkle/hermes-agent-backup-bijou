@@ -1,0 +1,42 @@
+# Hermes Cron Job — Once-Per-Day LLM-Driven Template
+
+```yaml
+# Save as: ~/.hermes/cron/jobs/once-per-day.yaml
+# Then: cronjob create --from-file once-per-day.yaml
+
+name: "once-per-day-example"
+schedule: "* 9-11 * * *"  # Adjust window as needed
+deliver: "origin"         # or "telegram"
+enabled_toolsets:
+  - "homeassistant"
+  - "terminal"            # REQUIRED for marker file persistence
+prompt: |
+  ONCE-PER-DAY JOB — runs in window, triggers once when condition met.
+
+  1. CHECK MARKER
+     terminal: test -f /tmp/once-per-day-$(date +%F).marker
+     → If exit code 0: marker exists → OUTPUT NOTHING, exit silently
+
+  2. GET STATE
+     homeassistant: get state of <entity_id>
+     → Capture state value
+
+  3. EVALUATE CONDITION
+     If state matches <condition> (e.g., "playing" or "on"):
+        a. CREATE MARKER
+           terminal: touch /tmp/once-per-day-$(date +%F).marker
+        b. OUTPUT NOTIFICATION
+           Exact message to deliver (no extra commentary)
+     Else:
+        OUTPUT NOTHING, exit silently
+
+  4. MARKER AUTO-EXPIRES
+     Next day = new date = new marker path = fresh run
+```
+
+## Usage
+1. Copy template
+2. Replace `<entity_id>` and `<condition>`
+3. Adjust `schedule` window
+4. Set `deliver` target
+5. `cronjob create --from-file once-per-day.yaml`

@@ -1,0 +1,49 @@
+{
+  "jobs": [
+    {
+      "id": "1ec54427a168",
+      "name": "Pill reminder (first detection, expires 7d)",
+      "prompt": "Run silently unless there is something to do.\n\n1. Compute today\u2019s marker path: /tmp/pill-reminder-&lt;YYYY-MM-DD&gt;.sent\n2. If /tmp/pill-reminder-sent exists, that means today\u2019s reminder already fired. Exit silently.\n3. Read /tmp/pill-reminder-start to learn your creation date. If more than 7 days have passed, call cronjob(action='remove', job_id='627331267460'), then exit.\n4. Use homeassistant to get the state of media_player.android_tv_192_168_1_62.\n5. If state is 'playing' or 'on', send a short, friendly pill reminder to telegram and write /tmp/pill-reminder-sent.\n6. Otherwise exit silently.",
+      "skills": [],
+      "skill": null,
+      "model": "nvidia/nemotron-3-ultra:free",
+      "provider": "nous",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "* 9-11 * * *",
+        "display": "* 9-11 * * *"
+      },
+      "schedule_display": "* 9-11 * * *",
+      "repeat": {
+        "times": 10080,
+        "completed": 90
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T21:19:37.450764+03:00",
+      "next_run_at": "2026-06-18T09:00:00+03:00",
+      "last_run_at": "2026-06-17T11:59:58.371850+03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "7018493241",
+        "chat_name": "Agas",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "homeassistant"
+      ],
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-06-17T11:59:58.372262+03:00"
+}

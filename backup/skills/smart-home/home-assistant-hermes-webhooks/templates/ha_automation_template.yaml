@@ -1,0 +1,51 @@
+# HA automation template for event-driven Hermes webhook notifications
+# Place in automations.yaml (or create as separate file under automations/ via !include)
+
+- alias: "<friendly name>"
+  description: "Triggers Hermes webhook when <entity> changes state in time window"
+  trigger:
+    - platform: state
+      entity_id: <target_entity_id>
+      to: ["playing", "on"]      # destination states that fire
+      # from: ["off", "idle"]    # optional: restrict origin states
+      # for: "00:00:30"           # optional: require state hold duration
+  condition:
+    # Time window (e.g., 09:00-11:59)
+    - condition: time
+      after: "09:00:00"
+      before: "11:59:59"
+    # Once-per-day deduplication
+    - condition: template
+      value_template: "{{ not states('input_boolean.<dedupe_flag>') | bool }}"
+  action:
+    # Call the shell_command that posts to Hermes webhook
+    - service: shell_command.<shell_command_name>
+    # Set dedupe flag so same notification doesn't fire again today
+    - service: input_boolean.turn_on
+      target:
+        entity_id: input_boolean.<dedupe_flag>
+  mode: single  # prevent concurrent runs
+
+# ---- Supporting configuration (add to configuration.yaml) ----
+
+# Daily dedupe flag
+input_boolean:
+  <dedupe_flag>:
+    name: "<description>"
+    initial: false
+
+# Midnight reset for daily flag
+automation:
+  - alias: "Reset <dedupe_flag> daily"
+    trigger:
+      - platform: time
+        at: "00:00:00"
+    action:
+      - service: input_boolean.turn_off
+        target:
+          entity_id: input_boolean.<dedupe_flag>
+    mode: single
+
+# Shell command that calls the python script
+shell_command:
+  <shell_command_name>: "python3 /config/python_scripts/<script_name>.py"
